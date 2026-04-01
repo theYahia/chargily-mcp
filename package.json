@@ -1,14 +1,18 @@
 {
   "name": "@theyahia/chargily-mcp",
-  "version": "1.0.0",
-  "description": "MCP server for Chargily Pay payment gateway (Algeria)",
+  "version": "1.0.1",
+  "description": "MCP server for Chargily Pay — payment gateway, CIB/EDAHABIA cards (Algeria)",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
     "chargily-mcp": "dist/index.js"
   },
-  "files": ["dist"],
-  "engines": { "node": ">=18.0.0" },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
@@ -27,11 +31,27 @@
     "typescript": "^5.7.0",
     "vitest": "^3.1.0"
   },
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "mcpName": "io.github.theYahia/chargily-mcp",
-  "keywords": ["mcp","mcp-server","model-context-protocol","claude","ai","chargily","algeria-api","payments","typescript"],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "chargily",
+    "algeria-api",
+    "payments",
+    "typescript",
+    "api"
+  ],
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/theYahia/chargily-mcp.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theYahia/chargily-mcp.git"
+  },
   "homepage": "https://github.com/theYahia/chargily-mcp#readme",
   "author": "theYahia (https://github.com/theYahia)"
 }
